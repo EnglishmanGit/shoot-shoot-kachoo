@@ -36,6 +36,9 @@ public class Robot extends IterativeRobot {
     @Override
     public void teleopPeriodic() {
 
+        System.out.println(frc.team4976.robot.subsystems.Shooter.sampleEnc.getRate());
+        System.out.println("\nFRICKHECK\n");
+
         scheduler.run();
     }
 
